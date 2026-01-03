@@ -1,115 +1,91 @@
+Error    6010 - Internal compiler error Found NULL field - Field name "Interrupt Mode" needed
+
+
 Error    6126 -  Could not compile input file
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl      5: [00Ah 0010 006]                        OEMID : "QCOM  "
-Error    6313 -                                                                                   Invalid field label detected ^  (found "OEMID" expected "Oem ID")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     17: [024h 0036 004]                 Group Length : 00000034
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Group Length" expected "Length")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl      6: [010h 0016 008]                 OEM Table ID : "SDM710  "
-Error    6313 -                                                                                   Invalid field label detected ^  (found "OEM Table ID" expected "Oem Table ID")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     22: [034h 0052 002]                Major Version : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Major Version" expected "Revision")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl      7: [018h 0024 004]                 OEM Revision : 00008998
-Error    6313 -                                                                                   Invalid field label detected ^  (found "OEM Revision" expected "Oem Revision")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     23: [036h 0054 002]                Minor Version : 0000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Minor Version" expected "Reserved")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl      8: [01Ch 0028 004]                   Creator ID : "MSFT"
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Creator ID" expected "Asl Compiler ID")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     27: [03Ch 0060 004]            Descriptor Length : 00000018
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Length" expected "Major Version")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl      9: [020h 0032 004]             Creator Revision : 00000001
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Creator Revision" expected "Asl Compiler Revision")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     28: [040h 0064 002]              Descriptor Type : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Type" expected "Minor Version")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     15: [034h 0052 004]             Secure EL1 Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Secure EL1 Flags" expected "EL1 Flags (decoded below)")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     29: [042h 0066 002]           Descriptor Subtype : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Subtype" expected "MMIO Base Address Low")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     16: [038h 0056 004]     Non-Secure EL1 Interrupt : 00000012
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Non-Secure EL1 Interrupt" expected "Trigger Mode")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     30: [044h 0068 004]                  Resource ID : 00000001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Resource ID" expected "MMIO Base Address High")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     16: [038h 0056 004]     Non-Secure EL1 Interrupt : 00000012
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     31: [048h 0072 004]                Register Base : 1799000C
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Register Base" expected "GSI Interrupt")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     17: [03Ch 0060 004]         Non-Secure EL1 Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Non-Secure EL1 Flags" expected "Polarity")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     32: [04Ch 0076 004]             Interrupt Vector : 000001C3
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Interrupt Vector" expected "Interrupt Polarity")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     17: [03Ch 0060 004]         Non-Secure EL1 Flags : 00000002
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     32: [04Ch 0076 004]             Interrupt Vector : 000001C3
+Error    6303 -                                                                                   Integer too large for target ^  (00000000000001C3 - max 1 bytes)
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     18: [040h 0064 004]      Virtual Timer Interrupt : 00000013
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Virtual Timer Interrupt" expected "Always On")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     35: [058h 0088 004]                 Group Length : 00000034
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Group Length" expected "Interrupt Mode")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     18: [040h 0064 004]      Virtual Timer Interrupt : 00000013
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     36: [05Ch 0092 004]                    Vendor ID : 00001022
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Vendor ID" expected "Num Channels")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     19: [044h 0068 004]          Virtual Timer Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Virtual Timer Flags" expected "Non-Secure EL1 Interrupt")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     36: [05Ch 0092 004]                    Vendor ID : 00001022
+Error    6303 -                                                                                   Integer too large for target ^  (0000000000001022 - max 1 bytes)
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     20: [048h 0072 004]     Non-Secure EL2 Interrupt : 00000010
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Non-Secure EL2 Interrupt" expected "NEL1 Flags (decoded below)")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     37: [060h 0096 004]                 Subvendor ID : 00000000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Subvendor ID" expected "DMA Address Width")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     21: [04Ch 0076 004]         Non-Secure EL2 Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Non-Secure EL2 Flags" expected "Trigger Mode")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     38: [064h 0100 002]                    Device ID : 0670
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Device ID" expected "Base Request Line")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     21: [04Ch 0076 004]         Non-Secure EL2 Flags : 00000002
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     39: [066h 0102 002]                 Subdevice ID : 0000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Subdevice ID" expected "Num Handshake Signals")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     23: [050h 0080 008]   Counter Read Block Address : FFFFFFFFFFFFFFFF
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Counter Read Block Address" expected "Polarity")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     40: [068h 0104 002]                Major Version : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Major Version" expected "Max Block Size")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     23: [050h 0080 008]   Counter Read Block Address : FFFFFFFFFFFFFFFF
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     41: [06Ah 0106 002]                Minor Version : 0000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Minor Version" expected "Length")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     24: [058h 0088 004]         Platform Timer Count : 00000001
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Platform Timer Count" expected "Always On")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     42: [06Ch 0108 004]           Shared Info Length : 00000000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Shared Info Length" expected "Type")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     25: [05Ch 0092 004]        Platform Timer Offset : 00000060
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Platform Timer Offset" expected "Virtual Timer Interrupt")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     45: [070h 0112 004]            Descriptor Length : 00000018
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Length" expected "Subtype")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     28: [060h 0096 001]                Subtable Type : 00
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Subtable Type" expected "VT Flags (decoded below)")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     46: [074h 0116 002]              Descriptor Type : 0002
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Type" expected "UID")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     29: [061h 0097 002]                       Length : 003C
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Length" expected "Trigger Mode")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     47: [076h 0118 002]           Descriptor Subtype : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Descriptor Subtype" expected "Length")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     29: [061h 0097 002]                       Length : 003C
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     48: [078h 0120 004]                  Resource ID : 00000001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Resource ID" expected "Type")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     30: [063h 0099 001]                     Reserved : 00
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Reserved" expected "Polarity")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     49: [07Ch 0124 004]                Register Base : 00898000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Register Base" expected "Subtype")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     31: [064h 0100 008]                Block Address : 0000000017920000
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Block Address" expected "Always On")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     49: [07Ch 0124 004]                Register Base : 00898000
+Error    6303 -                                                                                   Integer too large for target ^  (0000000000898000 - max 2 bytes)
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     31: [064h 0100 008]                Block Address : 0000000017920000
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     50: [080h 0128 004]             Interrupt Vector : 0000025F
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Interrupt Vector" expected "UID")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     32: [06Ch 0108 004]                  Timer Count : 00000001
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Timer Count" expected "Non-Secure EL2 Interrupt")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     53: [08Ch 0140 004]                 Group Length : 00000034
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Group Length" expected "Length")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     33: [070h 0112 004]                 Timer Offset : 00000014
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Timer Offset" expected "NEL2 Flags (decoded below)")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     58: [09Ch 0156 002]                Major Version : 0001
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Major Version" expected "Revision")
 
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     34: [074h 0116 001]                 Frame Number : 00
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Frame Number" expected "Trigger Mode")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     35: [075h 0117 003]                     Reserved : 000000
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Reserved" expected "Polarity")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     36: [078h 0120 008]                 Base Address : 0000000017921000
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Base Address" expected "Always On")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     36: [078h 0120 008]                 Base Address : 0000000017921000
-Error    6302 -                                                                                        Flag value is too large ^  (Maximum 1 bit)
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     37: [080h 0128 008]             EL0 Base Address : 0000000017922000
-Error    6313 -                                                                                   Invalid field label detected ^  (found "EL0 Base Address" expected "Counter Read Block Address")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     38: [088h 0136 004]              Timer Interrupt : 00000028
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Timer Interrupt" expected "Platform Timer Count")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     39: [08Ch 0140 004]                  Timer Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Timer Flags" expected "Platform Timer Offset")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     40: [090h 0144 004]      Virtual Timer Interrupt : 00000027
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Virtual Timer Interrupt" expected "Subtable Type")
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     40: [090h 0144 004]      Virtual Timer Interrupt : 00000027
-Error    6310 -                                                                                          Unknown subtable type ^  (GTDT)
-
-/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/GTDT.dsl     41: [094h 0148 004]          Virtual Timer Flags : 00000002
-Error    6313 -                                                                                   Invalid field label detected ^  (found "Virtual Timer Flags" expected "Length")
+/home/q/Desktop/EFI/edk2-msm/Silicon/Qualcomm/sdm710/AcpiTables/CSRT.dsl     59: [09Eh 0158 002]                Minor Version : 0000
+Error    6313 -                                                                                   Invalid field label detected ^  (found "Minor Version" expected "Reserved")
