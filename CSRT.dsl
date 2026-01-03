@@ -1,12 +1,17 @@
+/*
+ * CSRT for Sirius (Qualcomm SDM710/670)
+ * Formatted for iasl compiler compatibility.
+ */
+
 [000h 0000 004]                    Signature : "CSRT"
 [004h 0004 004]                 Table Length : 000000CC
 [008h 0008 001]                     Revision : 00
 [009h 0009 001]                     Checksum : 00
-[00Ah 0010 006]                        OEMID : "QCOM  "
-[010h 0016 008]                 OEM Table ID : "SDM710  "
-[018h 0024 004]                 OEM Revision : 00000001
-[01Ch 0028 004]                   Creator ID : "MSFT"
-[020h 0032 004]             Creator Revision : 00000001
+[00Ah 0010 006]                       Oem ID : "QCOM  "
+[010h 0016 008]                 Oem Table ID : "SDM710  "
+[018h 0024 004]                 Oem Revision : 00000001
+[01Ch 0028 004]              Asl Compiler ID : "MSFT"
+[020h 0032 004]        Asl Compiler Revision : 00000001
 
 // --- Resource Group 0: SMP2P Modem ---
 [024h 0036 004]                 Group Length : 00000034
@@ -14,9 +19,10 @@
 [02Ch 0044 004]                 Subvendor ID : 00000000
 [030h 0048 002]                    Device ID : 0670
 [032h 0050 002]                 Subdevice ID : 0000
-[034h 0052 002]                  Revision ID : 0001
-[036h 0054 002]                     Reserved : 0000
+[034h 0052 002]                Major Version : 0001
+[036h 0054 002]                Minor Version : 0000
 [038h 0056 004]           Shared Info Length : 00000000
+
 // Resource Descriptor: Interrupt (Modem)
 [03Ch 0060 004]            Descriptor Length : 00000018
 [040h 0064 002]              Descriptor Type : 0001
@@ -31,9 +37,10 @@
 [060h 0096 004]                 Subvendor ID : 00000000
 [064h 0100 002]                    Device ID : 0670
 [066h 0102 002]                 Subdevice ID : 0000
-[068h 0104 002]                  Revision ID : 0001
-[06Ah 0106 002]                     Reserved : 0000
+[068h 0104 002]                Major Version : 0001
+[06Ah 0106 002]                Minor Version : 0000
 [06Ch 0108 004]           Shared Info Length : 00000000
+
 // Resource Descriptor: MMIO/Interrupt (UART)
 [070h 0112 004]            Descriptor Length : 00000018
 [074h 0116 002]              Descriptor Type : 0002
@@ -48,9 +55,10 @@
 [094h 0148 004]                 Subvendor ID : 00000000
 [098h 0152 002]                    Device ID : 0670
 [09Ah 0154 002]                 Subdevice ID : 0000
-[09Ch 0156 002]                  Revision ID : 0001
-[09Eh 0158 002]                     Reserved : 0000
+[09Ch 0156 002]                Major Version : 0001
+[09Eh 0158 002]                Minor Version : 0000
 [0A0h 0160 004]           Shared Info Length : 00000000
+
 // Resource Descriptor: MMIO/Interrupt (I2C)
 [0A4h 0164 004]            Descriptor Length : 00000018
 [0A8h 0168 002]              Descriptor Type : 0002
